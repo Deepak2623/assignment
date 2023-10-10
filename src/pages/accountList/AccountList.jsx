@@ -59,7 +59,7 @@ const AccountList = ({ saveAccount }) => {
       setLoading(true); // Show the loading GIF
 
       // Call the API to vote for the selected fruit
-      const apiEndpoint = "http://assignment-blockchain.vercel.app/vote";
+      const apiEndpoint = "http://localhost:3000/vote";
       const requestOptions = {
         method: "POST",
         headers: { "Content-Type": "application/json" },
