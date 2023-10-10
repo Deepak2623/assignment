@@ -34,7 +34,7 @@ const Vote = ({ account }) => {
       setLoading(true);
 
       // Call the API to get the vote count for the selected fruit
-      const apiEndpoint = "http://localhost:3000/getVotes"; 
+      const apiEndpoint = "http://assignment-blockchain.vercel.app/getVotes"; 
       const requestOptions = {
         method: "POST",
         headers: { "Content-Type": "application/json" },
