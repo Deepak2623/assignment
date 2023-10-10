@@ -27,7 +27,7 @@ const CandidateRegister = ({ account }) => {
 
       setLoading(true); // Show loading indicator
 
-      const apiEndpoint = "http://assignment-blockchain.vercel.app/Register";
+      const apiEndpoint = "http://localhost:3000/Register";
       const requestOptions = {
         method: "POST",
         headers: { "Content-Type": "application/json" },
